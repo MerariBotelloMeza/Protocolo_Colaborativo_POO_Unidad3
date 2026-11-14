@@ -1,0 +1,17 @@
+package Talle_14.ejercicio1;
+
+public class Circulo extends Figura{
+    double radio;
+
+    public Circulo(double radio) {
+        this.radio = radio;
+    }
+
+
+    @Override
+    public void calcularArea(){
+        double area = Math.PI * Math.pow(radio, 2);
+        System.out.println("El área del círculo es: " + area);
+    }
+
+}
