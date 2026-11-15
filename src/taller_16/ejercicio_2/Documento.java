@@ -1,5 +1,7 @@
 package taller_16.ejercicio_2;
 
-public class Documento {
+public abstract class Documento {
+
+    public abstract void exportar(String tituloDocumento);
 
 }

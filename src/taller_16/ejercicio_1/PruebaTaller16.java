@@ -1,6 +1,4 @@
-package taller_16;
-
-import taller_16.ejercicio_1.*;
+package taller_16.ejercicio_1;
 
 public class PruebaTaller16 {
 
@@ -20,6 +18,7 @@ public class PruebaTaller16 {
         System.out.println("Precio con descuento del 10%: $" +gestor.aplicarDescuento(descuento10, precio));
         System.out.println("Precio con descuento del 20%: $" +gestor.aplicarDescuento(descuento20, precio));
         System.out.println("Precio con descuento fijo de $150.000: $"+gestor.aplicarDescuento(descuentoFijo, precio));
+
 
     }
 
