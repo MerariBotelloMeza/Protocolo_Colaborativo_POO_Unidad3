@@ -1,6 +1,7 @@
 package taller_16.ejercicio_3;
 
-public class Mensajero {
+public abstract class Mensajero {
 
+    public abstract void enviarMensaje(String mensaje);
 
 }
