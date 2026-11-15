@@ -1,7 +1,5 @@
 package taller_17.ejercicio_1;
 
-import java.awt.*;
-
 public class Main {
 
 
@@ -10,10 +8,10 @@ public class Main {
         System.out.println("\nEjercicio 1:\n");
 
         Figura circulo = new Circulo(12);
-        Figura rectangulo = new Rectangulo(8,13);
+        System.out.println("El area del circulo es: " + circulo.calcularArea());
 
-        circulo.calcularArea();
-        rectangulo.calcularArea();
+        Figura rectangulo = new Rectangulo(8,13);
+        System.out.println("El area rectangulo es: " + rectangulo.calcularArea());
 
     }
 }

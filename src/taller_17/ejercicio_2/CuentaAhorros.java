@@ -2,8 +2,9 @@ package taller_17.ejercicio_2;
 
 public class CuentaAhorros extends CuentaBancaria {
 
+
     public CuentaAhorros(String numero, String tipo, double balance) {
-        super(numero, tipo, balance);
+        super(numero, tipo,balance);
     }
 
     @Override

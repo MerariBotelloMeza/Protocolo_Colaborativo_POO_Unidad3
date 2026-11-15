@@ -1,7 +1,7 @@
 package taller_17.ejercicio_1;
 
 public class Circulo extends Figura {
-    double radio;
+    private double radio;
 
     public Circulo(double radio) {
         this.radio = radio;
@@ -9,9 +9,7 @@ public class Circulo extends Figura {
 
     @Override
     public double calcularArea() {
-        area = Math.PI * radio * radio;
-        System.out.println("El area del circulo es: "+area);
-        return area;
+        return Math.PI * radio * radio;
     }
 
 }
