@@ -1,7 +1,5 @@
 package taller_16.ejercicio_3;
 
-import taller_16.ejercicio_2.*;
-
 import java.util.Scanner;
 
 public class Main {
@@ -31,6 +29,7 @@ public class Main {
                 break;
             case 2:
                 gestorMensajes.gestionarMensaje(mensajeSMS, mensaje);
+                break;
             case 3:
                 gestorMensajes.gestionarMensaje(mensajePush, mensaje);
                 break;
