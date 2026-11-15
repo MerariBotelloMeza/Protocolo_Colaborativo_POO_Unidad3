@@ -20,24 +20,24 @@ public class Main {
         System.out.println("\nSeleccione una opcion del menu:");
         System.out.println("1. Exportar a PDF");
         System.out.println("2. Exportar a Word");
-        System.out.println("3. Exportarr a Excel");
+        System.out.println("3. Exportar a Excel");
 
         Scanner sc = new Scanner(System.in);
         int opcion = sc.nextInt();
         switch (opcion) {
             case 1:
-                gestorDocumentos.adminitrarDocumentos(documentoPDF,tituloDocumento);
+                gestorDocumentos.administrarDocumentos(documentoPDF,tituloDocumento);
             break;
             case 2:
-                gestorDocumentos.adminitrarDocumentos(documentoWord,tituloDocumento);
+                gestorDocumentos.administrarDocumentos(documentoWord,tituloDocumento);
             break;
             case 3:
-                gestorDocumentos.adminitrarDocumentos(documentoExcel,tituloDocumento);
+                gestorDocumentos.administrarDocumentos(documentoExcel,tituloDocumento);
                 break;
             default:
                 System.out.println("Opcion invalida");
 
         }
-
+        sc.close();
     }
 }
